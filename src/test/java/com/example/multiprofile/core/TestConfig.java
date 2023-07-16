@@ -23,7 +23,7 @@ public class TestConfig {
         return beanFactory -> {
             Environment environment = beanFactory.getBean(Environment.class);
             String[] activeProfiles = environment.getActiveProfiles();
-            log.info("Active profiles: {}", Arrays.toString(activeProfiles));
+            log.debug("Active profiles: {}", Arrays.toString(activeProfiles));
         };
     }
 }
