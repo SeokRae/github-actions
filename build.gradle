@@ -8,7 +8,7 @@ repositories {
     mavenCentral()
 }
 
-subprojects {
+allprojects {
 
     apply plugin: 'java'
     apply plugin: 'io.spring.dependency-management'
@@ -37,4 +37,8 @@ subprojects {
 
         testImplementation 'org.springframework.boot:spring-boot-starter-test'
     }
+}
+
+subprojects {
+
 }
