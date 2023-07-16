@@ -1,0 +1,11 @@
+spring:
+  config:
+    activate:
+      on-profile: actions
+
+merchant:
+  id: actions_client_id
+  key: actions_client_key
+
+domain:
+  api: https://api.actions.com
