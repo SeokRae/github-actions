@@ -1,0 +1,11 @@
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+merchant:
+  id: dev_client_id
+  key: dev_client_key
+
+domain:
+  api: https://api.dev-real.com

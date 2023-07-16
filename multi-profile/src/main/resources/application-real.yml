@@ -1,0 +1,11 @@
+spring:
+  config:
+    activate:
+      on-profile: real
+
+merchant:
+  id: real_client_id
+  key: real_client_key
+
+domain:
+  api: https://api.real.com

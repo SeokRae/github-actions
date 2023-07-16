@@ -1,0 +1,11 @@
+spring:
+  config:
+    activate:
+      on-profile: stg
+
+merchant:
+  id: stg_client_id
+  key: stg_client_key
+
+domain:
+  api: https://api.stg-real.com

@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    default: real
+    group:
+      real:
+        - real
+        - mysql
+      stg:
+        - stg
+        - mysql
+      test:
+        - test
+        - mysql
+      sandbox:
+        - sandbox
+        - mysql
+      dev:
+        - dev
+        - h2

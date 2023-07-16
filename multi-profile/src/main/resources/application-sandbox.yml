@@ -1,0 +1,11 @@
+spring:
+  config:
+    activate:
+      on-profile: sandbox
+
+merchant:
+  id: sandbox_client_id
+  key: sandbox_client_key
+
+domain:
+  api: https://api.sandbox-real.com
