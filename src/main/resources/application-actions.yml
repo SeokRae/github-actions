@@ -9,3 +9,7 @@ merchant:
 
 domain:
   api: https://api.actions.com
+
+logging:
+  level:
+    root: DEBUG
