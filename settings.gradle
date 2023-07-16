@@ -1,2 +1,2 @@
 rootProject.name = 'github-actions'
-include 'multi-profile'
+include ':multi-profile'
