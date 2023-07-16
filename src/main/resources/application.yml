@@ -16,4 +16,7 @@ spring:
         - mysql
       dev:
         - dev
+        - mysql
+      action:
+        - actions
         - h2
